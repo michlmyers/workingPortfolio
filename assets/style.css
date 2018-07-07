@@ -1,0 +1,190 @@
+body {
+    background: rgb(255, 255, 255);
+    color: #f64c72;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 10 16;
+    background: rgb(255, 255, 255);
+    /* -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white; */
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.technologies {
+    width: 100%;
+    text-align: center;
+}
+
+.languageTech {
+    width: 100%;
+    text-align: center;
+}
+
+.projects {
+    display: inline-block;
+    padding: 5%;
+}
+
+/* next three classes are working with the project link div and the scroll bar */
+.projectLinks {
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    /* overflow: visible; */
+}
+
+.projectLinks::-webkit-scrollbar {
+     width: 12px;
+}
+
+.projectLinks::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(252, 8, 8, 0.3); 
+    border-radius: 10px;
+}
+
+.projectLinks::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #f64c72;
+}
+
+.links {
+    float: right;
+    padding: 5%;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #f64c72;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+    color:  rgb(70, 70, 70)
+}
+
+td {
+    /* color: #17e9e0; */
+    color: rgb(70, 70, 70);
+}
+
+td:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+a {
+    color: #5cdb95;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 22px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
+
+  @media only screen and (max-width:800px) {
+      /* for tablets */
+      .header, .about, .technologies {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .projects {
+        width: 100%;
+        padding: 0;
+    }
+
+    .projectLinks {
+            overflow: visible;
+    }
+    
+    .links {
+        float: left;
+        padding: 0;
+    }
+    
+    .footer {
+        clear: both;
+    }
+    
+    .sticky {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+      /* for phones */
+    .header, .about, .technologies {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .projects {
+        width: 100%;
+        padding: 0;
+    }
+
+    .projectLinks {
+        overflow: visible;
+    }
+    
+    .links {
+        float: left;
+        padding: 0;
+    }
+    
+    .footer {
+        clear: both;
+    }
+    
+    .sticky {
+        display: none;
+    }
+  }
