@@ -1,14 +1,22 @@
 body {
-    background: rgb(255, 255, 255);
-    color: #f64c72;
+    /* background: rgb(255, 255, 255); */
+    background: linear-gradient(to right, #ffffff, #dbe2f0);
+    /* color: #f64c72; */
+    color: #31eaff;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+#name {
+    color: black;
 }
 
 .header {
     width: 100%;
     text-align: center;
-    padding: 10 16;
-    background: rgb(255, 255, 255);
+    padding: 10px;
+    /* turning background off for gradient. Back on for scroll */
+    /* background: rgb(255, 255, 255); */
+    background: linear-gradient(to right, #ffffff, #dbe2f0);
     /* -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: white; */
 }
@@ -32,6 +40,30 @@ body {
 .languageTech {
     width: 100%;
     text-align: center;
+    color: #31eaff;
+}
+
+.languageTech img {
+    width: 65px;
+    height: 65px;
+}
+
+.languageTech tr:nth-child(1) {
+    filter: drop-shadow(8px 8px 8px rgb(249, 200, 2));
+}
+
+.languageTech tr:nth-child(2) {
+    filter: drop-shadow(8px 8px 8px rgb(0, 95, 184));
+}
+
+.languageTech tr:nth-child(3) {
+    filter: drop-shadow(8px 8px 8px rgb(2, 249, 154));
+}
+
+.languageTech img:hover {
+/* filter: drop-shadow(16px 16px 20px rgb(3, 155, 117)) invert(80%); */
+/* filter: drop-shadow(16px 16px 20px rgb(3, 155, 89)) invert(80%); */
+filter: drop-shadow(16px 16px 20px rgb(249, 2, 138)) invert(50%); 
 }
 
 .projects {
@@ -39,12 +71,65 @@ body {
     padding: 5%;
 }
 
+.stress {
+    font-size: 27px;
+}
+
+/* .experimental img {
+    height: 300px;
+    width: 400px;
+}
+
+.experimental h3 a {
+    color:  black;
+}
+
+.experimental td {
+    padding: 5px;
+} */
+
 /* next three classes are working with the project link div and the scroll bar */
 .projectLinks {
-    width: 500px;
+    /* width: 500px; */
+    width: 700px;
     height: 400px;
     overflow: auto;
+    filter: drop-shadow(8px 8px 8px rgb(237, 249, 2));
     /* overflow: visible; */
+}
+
+.backgroundOne {
+    filter: drop-shadow(8px 8px 8px rgb(237, 249, 2));
+    padding: 5px;
+}
+
+.backgroundTwo {
+    filter: drop-shadow(8px 8px 8px rgb(249, 2, 2));
+    padding: 5px;
+}
+
+.backgroundThree {
+    filter: drop-shadow(8px 8px 8px rgb(125, 2, 249));
+    padding: 5px;
+}
+
+.backgroundFour {
+    filter: drop-shadow(8px 8px 8px rgb(2, 249, 60));
+    padding: 5px;
+}
+
+.backgroundFive {
+    filter: drop-shadow(8px 8px 8px rgb(2, 142, 249));
+    padding: 5px;
+}
+
+.projectLinks h3 a {
+    color: black;
+}
+
+.projectLinks img {
+    height: 300px;
+    width: 400px;
 }
 
 .projectLinks::-webkit-scrollbar {
@@ -76,7 +161,7 @@ h1 {
 
 h2 {
     font-size: 35px;
-    color: #f64c72;
+    color: #31eaff;
 }
 
 h3 {
@@ -100,8 +185,8 @@ td:hover {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
 }
 
 img:hover
@@ -114,6 +199,7 @@ img:hover
 a {
     color: #5cdb95;
 }
+
 a:link {
     text-decoration: none;
 }

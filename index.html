@@ -7,17 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
     <title>Mike Myers Portfolio</title>
 </head>
 
 <body>
     <div class="container">
         <div class="header" id="myHeader">
-            <h1>Portfolio of Mike Myers</h1>
+            <h1>Portfolio of
+                <span id="name">Mike Myers</span>
+            </h1>
         </div>
         <div class="about">
-            <h2>About Me</h2>
+                <p>Full stack web developer and software engineer</p>
+                <p>(This page is still a work in progress)</p>
+            <!-- <h2>About Me</h2>
             <p>I’m a motivated professional with 15 years of experience in the music industry looking for a position as a software
                 engineer.
             </p>
@@ -32,153 +39,313 @@
                 is the perfect practice to combine my professional, educational, and creative experiences and further my
                 career by creating user friendly, dynamic, and aesthetically pleasing applications and websites as a software
                 engineer.
-            </p>
+            </p> -->
         </div>
-        <div class="technologies">
-            <h2>Languages and technologies</h2>
-            <table class="languageTech">
-                <tr>
-                    <td>JavaScript</td>
-                    <td>HTML</td>
-                    <td>CSS</td>
-                    <td>jQuery</td>
-                    <td>Node</td>
-                </tr>
-                <tr>
-                    <td>API</td>
-                    <td>AJAX</td>
-                    <td>JSON</td>
-                    <td>SQL</td>
-                    <td>Github</td>
-                </tr>
-                <tr>
-                    <td>Express.js</td>
-                    <td>MongoDB</td>
-                    <td>Bootstrap</td>
-                    <td>React</td>
-                </tr>
-            </table>
-        </div>
-        <div class="projects">
-            <h2>Projects</h2>
-            <h4>Click any project title to open in a new window</h4>
-            <ul class="projectLinks">
-                    <li>
-                            <h3>
-                                <a target="blank" href="https://evening-bastion-57219.herokuapp.com/">NY Times React App</a>
-                            </h3>
-                            <p>Full stack app utilizing React, Express, Node, MongoDB. Search NY times articles for topics
-                                and save them to the database. 
-                            </p>
-                        </li>
-                <li>
+
+        <!-- <div class="experimental">
+        <h2>Experimental</h2>
+        <table class="experimental">
+            <tr>
+                <td>
+                    <h3>
+                        <a target="blank" href="https://evening-bastion-57219.herokuapp.com/">NY Times React App</a>
+                        ||||||||||
+                        <a target="blank" href="#">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </h3>
+                    <img src="assets/images/nytapp.png" alt="nytapp image">
+                    <p>Full stack app utilizing React, Express, Node, MongoDB. Search NY times articles for topics and save
+                        them to the database.
+                    </p>
+                </td>
+                <td>
                     <h3>
                         <a target="blank" href="https://cryptic-lowlands-65429.herokuapp.com/">React Clicky Game</a>
+                        ||||||||||
+                        <a target="blank" href="#">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
                     </h3>
+                    <img src="assets/images/reactapp.png" alt="reactapp image">
                     <p>This app is a clicky game which utilizes React JS for the front end.</p>
-                </li>
-                <li>
+                </td>
+                <td>
                     <h3>
                         <a target="blank" href="https://immense-woodland-22972.herokuapp.com/">MongoDB App</a>
+                        ||||||||||
+                        <a target="blank" href="#">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
                     </h3>
+                    <img src="assets/images/mongoapp.png" alt="mongoapp image">
                     <p>This app scrapes information from news headlines at Brooklyn Vegan into MongoDB using node, mongoose,
                         cheerio, request, handlebars, and bootstrap.</p>
-                </li>
-                <li>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <h3>
                         <a target="blank" href="https://dry-falls-33332.herokuapp.com/">Burger App</a>
+                        ||||||||||
+                        <a target="blank" href="#">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
                     </h3>
+                    <img src="assets/images/burgerapp.png" alt="burgerapp image">
                     <p>This app was built with the model view controller design pattern. Using Node, Express, body-parser, and
                         handlebars. It's also using mysql to establish a connection with the database.</p>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://shielded-thicket-10720.herokuapp.com/">Friendfinder</a>
-                    </h3>
-                    <p>App using Node, Express, Body-Parser, and Path. Takes in survey answers and compares with other user
-                        answers to match compatibility. Can also access API of user response data.
-                    </p>
-                    <!-- Undecided about displaying small iframes of the various projects -->
-                    <!-- <iframe src="https://shielded-thicket-10720.herokuapp.com/" frameborder="0">
-                        <p>Your browser does not support iframes.</p>
-                    </iframe> -->
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://github.com/michlmyers/liri-node-app">Node Command Line LIRI Bot</a>
-                    </h3>
-                    <p>Command line language interpretation app that reads four different commands. Demo below. Link is to Github
-                        repo. </p>
-                    <iframe width="350" height="250" src="https://www.youtube.com/embed/SYnrgasd670?rel=0" frameborder="0" allow="autoplay; encrypted-media"
-                        allowfullscreen></iframe>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://warm-lake-45610.herokuapp.com/">Workout Wizard</a>
-                    </h3>
-                    <p>Group project using Passport, Express, and Highcharts. Data persist to sql. User can sign up with an
-                        email and store workout and weight data. I primarily contriuted to Highcharts and front end.</p>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://michlmyers.github.io/bandsandbooze/">Bands and Booze</a>
-                    </h3>
-                    <p>Group project - Bar finder app based on proximity to specific concerts. App places API calls using AJAX
-                        to Bandsintown API and Google Places API. I primarily contributed to Bandsintown and front end.
-                    </p>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://michlmyers.github.io/Hangman-Game/">Hangman</a>
-                    </h3>
-                    <p>JavaScript zombie-themed hangman game. I also made the music using GarageBand.</p>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://michlmyers.github.io/Project-Gif/">Project Gif</a>
-                    </h3>
-                    <p>Utilizes the Giphy API to display gifs. User can enter their own topic to populate page and click gifs
-                        to control motion.
-                    </p>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://michlmyers.github.io/TriviaGame/">Trivia</a>
-                    </h3>
-                    <p>80s movie themed trivia game using JavaScript and jQuery.</p>
-                </li>
-                <li>
-                    <h3>
-                        <a target="blank" href="https://github.com/michlmyers/bamazon">Bamazon</a>
-                    </h3>
-                    <p>CLI mysql app that displays inventory. Allows a user to buy items from the inventory and updates the
-                        database. Link is to Github repo.
-                    </p>
-                </li>
-            </ul>
-        </div>
-        <div class="links">
-            <h2>Contact</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/michlmyers" target="blank">
-                        <img src="assets/images/github.png" alt="Github Profile">
-                    </a>
-                </li>
-                <br>
-                <li>
-                    <a href="https://www.linkedin.com/in/miketmyers/" target="blank">
-                        <img src="assets/images/linkedin.png" alt="Linked In Profile">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer">
-            <p> &copy; Copyright Michael Myers</p>
-            <p>
-                <a href="#top"> &lt; back to the top &gt; </a>
-            </p>
-        </div>
+                </td>
+            </tr>
+            </table>
+        </div> -->
+
+            <!-- technologies -->
+            <div class="technologies">
+                            <h2>Languages and technologies</h2>
+                            <table class="languageTech">
+                                <tr>
+                                    <td class="backgroundTwo">
+                                        <img src="assets/images/javascript.svg" alt="JS Logo">
+                                    </td>
+                                    <td class="backgroundFive">
+                                        <img src="assets/images/react.svg" alt="react Logo">
+                                    </td>
+                                    <td class="backgroundThree">
+                                        <img src="assets/images/nodejs.svg" alt="node Logo">
+                                    </td>
+                                    <td class="backgroundFour">
+                                        <img src="assets/images/html.svg" alt="html Logo">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="backgroundFour">
+                                        <img src="assets/images/css.svg" alt="css Logo">
+                                    </td>
+                                    <td>
+                                        <img src="assets/images/mongodb.svg" alt="mongo Logo">
+                                    </td>
+                                    <td class="backgroundTwo">
+                                        <img src="assets/images/mysql.svg" alt="mysql Logo">
+                                    </td>
+                                    <td>
+                                        <img src="assets/images/jquery.svg" alt="jquery Logo">
+                                    </td>
+            
+                                </tr>
+                                <tr>
+                                    <td class="backgroundTwo">
+                                        <img src="assets/images/npm.svg" alt="npm Logo">
+                                    </td>
+                                    <td class="backgroundThree">
+                                        <img src="assets/images/bootstrap.svg" alt="bootstrap Logo">
+                                    </td>
+                                    <td class="backgroundTwo">
+                                        <img src="assets/images/express.svg" alt="express Logo">
+                                    </td>
+                                    <td class="backgroundOne">
+                                        <img src="assets/images/git.svg" alt="git Logo">
+                                    </td>
+                                </tr>
+                            </table>
+            </div>
+            <!-- projects -->
+            <div class="projects">
+                <h2>Projects</h2>
+                <h4>Click any project title to
+                    <span class="stress">demo</span> in a new window</h4>
+                <h4>Click the Git logo to check out the
+                    <span class="stress">repo</span>
+                </h4>
+                <ul class="projectLinks">
+                    <li class="backgroundTwo">
+                        <h3>
+                            <a target="blank" href="https://evening-bastion-57219.herokuapp.com/">NY Times React App</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/nytapp.png" alt="nytapp image">
+                        <p>Full stack app utilizing React, Express, Node, MongoDB. Search NY times articles for topics and save
+                            them to the database.
+                        </p>
+                    </li>
+                    <li class="backgroundFive">
+                        <h3>
+                            <a target="blank" href="https://cryptic-lowlands-65429.herokuapp.com/">React Clicky Game</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/reactapp.png" alt="reactapp image">
+                        <p>This app is a clicky game which utilizes React JS for the front end.</p>
+                    </li>
+                    <li class="backgroundFour">
+                        <h3>
+                            <a target="blank" href="https://immense-woodland-22972.herokuapp.com/">MongoDB App</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/mongoapp.png" alt="mongoapp image">
+                        <p>This app scrapes information from news headlines at Brooklyn Vegan into MongoDB using node, mongoose,
+                            cheerio, request, handlebars, and bootstrap.</p>
+                    </li>
+                    <li class="backgroundThree">
+                        <h3>
+                            <a target="blank" href="https://dry-falls-33332.herokuapp.com/">Burger App</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/burgerapp.png" alt="burgerapp image">
+                        <p>This app was built with the model view controller design pattern. Using Node, Express, body-parser,
+                            and handlebars. It's also using mysql to establish a connection with the database.</p>
+                    </li>
+                    <li class="backgroundFour">
+                        <h3>
+                            <a target="blank" href="https://shielded-thicket-10720.herokuapp.com/">Friendfinder</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/friendapp.png" alt="friendapp image">
+                        <p>App using Node, Express, Body-Parser, and Path. Takes in survey answers and compares with other user
+                            answers to match compatibility. Can also access API of user response data.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            <a target="blank" href="https://github.com/michlmyers/liri-node-app">Node Command Line LIRI Bot</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <p>Command line language interpretation app that reads four different commands. Demo below. Link is
+                            to Github repo. </p>
+                        <iframe width="350" height="250" src="https://www.youtube.com/embed/SYnrgasd670?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </li>
+                    <li class="backgroundFour">
+                        <h3>
+                            <a target="blank" href="https://warm-lake-45610.herokuapp.com/">Workout Wizard</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/workoutapp.png" alt="workout image">
+                        <p>Group project using Passport, Express, and Highcharts. Data persist to sql. User can sign up with
+                            an email and store workout and weight data. I primarily contriuted to Highcharts and front end.</p>
+                    </li>
+                    <li class="backgroundThree">
+                        <h3>
+                            <a target="blank" href="https://michlmyers.github.io/bandsandbooze/">Bands and Booze</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/bandapp.png" alt="bandapp image">
+                        <p>Group project - Bar finder app based on proximity to specific concerts. App places API calls using
+                            AJAX to Bandsintown API and Google Places API. I primarily contributed to Bandsintown and front
+                            end.
+                        </p>
+                    </li>
+                    <li class="backgroundTwo">
+                        <h3>
+                            <a target="blank" href="https://michlmyers.github.io/Hangman-Game/">Hangman</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/zombiegame.png" alt="zombiegame image">
+                        <p>JavaScript zombie-themed hangman game. I also made the music using GarageBand.</p>
+                    </li>
+                    <li class="backgroundThree">
+                        <h3>
+                            <a target="blank" href="https://michlmyers.github.io/Project-Gif/">Project Gif </a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/gifgame.png" alt="gifgame image">
+                        <p>Utilizes the Giphy API to display gifs. User can enter their own topic to populate page and click
+                            gifs to control motion.
+                        </p>
+                    </li>
+                    <li class="backgroundTwo">
+                        <h3>
+                            <a target="blank" href="https://michlmyers.github.io/TriviaGame/">Trivia</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/80sgame.png" alt="80sgame image">
+                        <p>80s movie themed trivia game using JavaScript and jQuery.</p>
+                    </li>
+                    <li class="backgroundFour">
+                        <h3>
+                            <a target="blank" href="https://github.com/michlmyers/bamazon">Bamazon</a>
+                            ||||||||||
+                            <a target="blank" href="#">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </h3>
+                        <img src="assets/images/Bamazon.png" alt="Bamazon image">
+                        <p>CLI mysql app that displays inventory. Allows a user to buy items from the inventory and updates
+                            the database. Link is to Github repo.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- contact links -->
+            <div class="links">
+                <h2>Contact Me</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/michlmyers" target="blank">
+                            <img src="assets/images/github.png" alt="Github Profile">
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://www.linkedin.com/in/miketmyers/" target="blank">
+                            <img src="assets/images/linkedin.png" alt="Linked In Profile">
+                        </a>
+                    </li>
+                    <br>
+                    <!-- <li>
+                        <a href="https://github.com/michlmyers" target="blank">
+                            <i class="fab fa-github fa-5x"></i>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://www.linkedin.com/in/miketmyers/" target="blank">
+                            <i class="fab fa-linkedin fa-5x"></i>
+                        </a>
+                    </li> -->
+                </ul>
+
+            </div>
+
+            <!-- footer -->
+            <div class="footer">
+                <p> &copy; Copyright Michael Myers</p>
+                <p>
+                    <a href="#top"> &lt; back to the top &gt; </a>
+                </p>
+            </div>
 
     </div>
 
