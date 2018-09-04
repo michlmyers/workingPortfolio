@@ -75,7 +75,7 @@ filter: drop-shadow(16px 16px 20px rgb(249, 2, 138)) invert(50%);
     font-size: 27px;
 }
 
-/* .experimental img {
+.experimental img {
     height: 300px;
     width: 400px;
 }
@@ -86,7 +86,7 @@ filter: drop-shadow(16px 16px 20px rgb(249, 2, 138)) invert(50%);
 
 .experimental td {
     padding: 5px;
-} */
+} 
 
 /* next three classes are working with the project link div and the scroll bar */
 .projectLinks {
@@ -162,6 +162,7 @@ h1 {
 h2 {
     font-size: 35px;
     color: #31eaff;
+    text-align: center;
 }
 
 h3 {

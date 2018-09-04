@@ -13,7 +13,8 @@ $(function () {
         // TweenMax.staggerFrom("td", 2.5, {scaleX:0, scaleY:0, ease:Back.easeIn, delay:6});
     };
 
-    animatePage();
+    // CURRENTLY DISABLED ANIMATION
+    // animatePage();
 
     window.onscroll = function () { myFunction() };
 
