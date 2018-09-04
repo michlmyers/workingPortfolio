@@ -6,6 +6,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.fab {
+    color: #5cdb95;
+}
+
 #name {
     color: black;
 }
@@ -84,8 +88,18 @@ filter: drop-shadow(16px 16px 20px rgb(249, 2, 138)) invert(50%);
     color:  black;
 }
 
+.experimental h3 {
+    text-align: center;
+}
+
+.experimental p {
+    text-align: center;
+}
+
 .experimental td {
-    padding: 5px;
+    padding: 25px;
+    border: 3px solid black;
+    background-color: #ffffff;
 } 
 
 /* next three classes are working with the project link div and the scroll bar */
@@ -179,7 +193,7 @@ td {
     color: rgb(70, 70, 70);
 }
 
-td:hover {
+.technologies td:hover {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);

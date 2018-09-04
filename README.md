@@ -6,4 +6,4 @@ This portfolio page was created in early June of 2018. I employed some basic Jav
 
 It includes a sticky header and div scroll which are each removed below a width of 800px. 
 
-## Latest modification 7/7/2018
+## Latest modification 8/4/2018
