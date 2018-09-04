@@ -27,6 +27,7 @@ body {
 
 .footer {
     width: 100%;
+    clear: both;
     text-align: center;
 }
 
@@ -161,12 +162,17 @@ filter: drop-shadow(16px 16px 20px rgb(249, 2, 138)) invert(50%);
 }
 
 .links {
-    float: right;
+    /* float: right; */
     padding: 5%;
 }
 
 .links ul {
     list-style-type: none;
+}
+
+.links li {
+    float: left;
+    padding: 20px;
 }
 
 h1 {
